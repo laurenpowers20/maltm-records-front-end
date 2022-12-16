@@ -93,6 +93,7 @@ function About() {
             <a
               href="https://github.com/mholcombe93"
               target="_blank"
+              className="bio-link"
               rel="noreferrer"
             >
               Git Hub
@@ -101,6 +102,7 @@ function About() {
             <a
               href="https://www.linkedin.com/in/matthew-holcombe93/"
               target="_blank"
+              className="bio-link"
               rel="noreferrer"
             >
               LinkedIn.

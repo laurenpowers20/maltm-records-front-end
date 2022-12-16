@@ -19,6 +19,7 @@ input {
   border: 2px solid white;
   padding: 20px;
 }
+
 .album-input {
   display: block;
 }
@@ -252,5 +253,14 @@ img:hover {
   }
   .gallery-pic {
     height: 100px;
+  }
+
+  input {
+    width: 250px;
+    height: 5px;
+    margin: 10px;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px;
   }
 }
