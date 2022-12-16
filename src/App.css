@@ -1,14 +1,13 @@
-
 body {
   text-align: center;
   background-color: black;
-  color:white;
-  font-family: 'Londrina Solid', cursive;
+  color: white;
+  font-family: "Londrina Solid", cursive;
 }
 
-.form{
-display: flex;
-justify-content: center;
+.form {
+  display: flex;
+  justify-content: center;
 }
 
 input {
@@ -19,37 +18,37 @@ input {
   border-radius: 25px;
   border: 2px solid white;
   padding: 20px;
-} 
-.album-input{
+}
+.album-input {
   display: block;
 }
 
-.song{
+.song {
   display: inline;
 }
 
-.song-div{
+.song-div {
   display: block;
   margin-top: -10px;
-  padding: 0
+  padding: 0;
 }
 
-
-.add-song, .submit{
+.add-song,
+.submit {
   margin: 10px;
   padding: 5px;
   font-size: large;
 }
 
 .artist-name {
-  font-family: 'Londrina Solid', cursive;
+  font-family: "Londrina Solid", cursive;
   text-align: center;
   padding: 0;
 }
 
-.artist-bio-container{
-width: 400px;
-text-align: center;
+.artist-bio-container {
+  width: 400px;
+  text-align: center;
 }
 
 .crudButton {
@@ -58,11 +57,11 @@ text-align: center;
   margin: 5px;
 }
 
-.gallery{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .gallery:hover {
@@ -73,12 +72,12 @@ align-items: center;
   margin: 5px;
   height: 250px;
   border: 1px black solid;
-  -webkit-box-shadow: 10px 10px 23px 4px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 23px 4px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 23px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 23px 4px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 23px 4px rgba(48, 47, 47, 0.75);
 }
 
-.genre{
+.genre {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   height: 80%;
@@ -95,22 +94,21 @@ align-items: center;
   cursor: pointer;
   color: white;
   border: 1px black solid;
-  -webkit-box-shadow: 10px 10px 23px 4px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 23px 4px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 23px 4px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 23px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 23px 4px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 23px 4px rgba(0, 0, 0, 0.75);
 }
 
-.genre-list{
+.genre-list {
   text-align: center;
   font-size: 1.8em;
-  margin: 0
+  margin: 0;
 }
 
 .album-cover-artist {
   display: flex;
   justify-content: center;
   /* margin: 1rem; */
-
 }
 img:hover {
   filter: brightness(1.2);
@@ -118,150 +116,141 @@ img:hover {
   transition: 300ms ease-in-out;
 }
 
+.bio {
+  font-size: 2em;
+  margin: 5% 15%;
+}
+.bio-content {
+  padding-right: 300px;
+}
+.bio-link {
+  text-decoration: underline;
+}
+
+.center {
+  text-align: center;
+}
+
+.alpha {
+  font-size: 30px;
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  margin-top: 0;
+  justify-content: center;
+}
+
+.alphabet {
+  padding: 5px;
+}
+
+.RnB {
+  background-image: url(../public/music/R&B.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Soul {
+  background: url(../public/music/Soul.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Alt {
+  background: url(../public/music/alternative-music-venues-London.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Rock {
+  background: url(../public/music/Rock.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.K {
+  background: url(../public/music/kpop.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Punk {
+  background: url(../public/music/RockBand2.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Hip-Hop {
+  background: url(../public/music/Hip.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Rap {
+  background: url(../public/music/Rap.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Pop {
+  background: url(../public/music/Pop.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Elec {
+  background: url(../public/music/best-edm-songs-2019.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Jazz {
+  background: url(../public/music/Jazz.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.EDM {
+  background: url(../public/music/edm.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @media only screen and (max-width: 600px) {
-  .genre{
+  .bio-content {
+    padding: 1px;
+  }
+  .bio {
+    font-size: 1em;
+  }
+  .genre {
     display: flex;
     flex-wrap: wrap;
   }
   .gallery-pic {
     height: 100px;
   }
-      .genre-gallery {
-        height: 100px;
-        
-      }
 
-}
+  .genre-gallery {
+    height: 100px;
+  }
 
-.bio{
-  font-size: 2em;
-  margin: 5% 15%;
-}
-.bio-content{
-  padding-right: 300px;
-}
-.bio-link{
-  text-decoration: underline;
-}
-
-.center{
-  text-align: center;
-}
-
-.alpha{
-    font-size: 30px;
+  .genre {
     display: flex;
-    padding: 20px;
     flex-wrap: wrap;
-    margin-top: 0;
-    justify-content: center;
   }
-
-  .alphabet{
-    padding: 5px;
+  .gallery-pic {
+    height: 100px;
   }
-
-  .RnB{
-background-image: url(../public/music/R&B.jpg);
-background-size: 100%;
-background-repeat: no-repeat;
-background-size: cover;
-  }
-
-  .Soul{
-background: url(../public/music/Soul.jpg);
-background-size: 100%;
-background-repeat: no-repeat;
-background-size: cover;
-  }
-
-  .Alt{
-background: url(../public/music/alternative-music-venues-London.jpg);
-background-size: 100%;
-background-repeat: no-repeat;
-background-size: cover;
-  }
-
-  .Rock{
-background: url(../public/music/Rock.jpg);
-background-size: 100%;
-background-repeat: no-repeat;
-background-size: cover;
-  }
-
-  .K{
-background: url(../public/music/kpop.jpg);
-background-size: 100%;
-background-repeat: no-repeat;
-background-size: cover;
-  }
-
-  .Punk{
-background: url(../public/music/RockBand2.webp);
-background-size: 100%;
-background-repeat: no-repeat;
-background-size: cover;
-  }
-
-  .Hip-Hop{
-background: url(../public/music/Hip.jpeg);
-background-size: 100%;
-background-repeat: no-repeat;
-background-size: cover;
-  }
-  .Rap{
-background: url(../public/music/Rap.jpg);
-background-size: 100%;
-background-repeat: no-repeat;
-background-size: cover;
-  }
-
-  .Pop{
-background: url(../public/music/Pop.jpg);
-background-size: 100%;
-background-repeat: no-repeat;
-background-size: cover;
-  }
-
-  .Elec{
-background: url(../public/music/best-edm-songs-2019.jpg);
-background-size: 100%;
-background-repeat: no-repeat;
-background-size: cover;
-  }
-  
-  .Jazz{
-background: url(../public/music/Jazz.jpg);
-background-size: 100%;
-background-repeat: no-repeat;
-background-size: cover;
-  }
-
-  .EDM{ 
-background: url(../public/music/edm.webp);
-background-size: 100%;
-background-repeat: no-repeat;
-background-size: cover;
-  }
-
-  @media only screen and (max-width: 600px) {
-    .genre{
-      display: flex;
-      flex-wrap: wrap;
-    }
-    .gallery-pic {
-      height: 100px;
-    }
-    .genre-gallery {
-     height: 100px;
-       }
-  
-    .bio-content{
-       padding: 1px;
-     }
-     .bio{
-      font-size: 1em;
-    }
-  }
-
- 
+}
