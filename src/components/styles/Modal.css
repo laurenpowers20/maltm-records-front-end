@@ -45,7 +45,6 @@ li {
 }
 
 .modal-exit {
-  /* display: inline-block; */
   width: 1em;
   background-color: white;
   -webkit-box-shadow: 10px 10px 46px -1px rgba(0, 0, 0, 0.75);
@@ -57,7 +56,6 @@ li {
 .Xbutton {
   display: flex;
   justify-content: right;
-  /* flex-direction: column-reverse; */
 }
 
 .modal-body {
