@@ -11,6 +11,9 @@
   justify-content: center;
   backdrop-filter: blur(0.25rem);
 }
+.modal-content {
+  width: 500px;
+}
 
 h1 {
   text-align: center;
@@ -50,12 +53,13 @@ li {
   -webkit-box-shadow: 10px 10px 46px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 46px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 46px -1px rgba(0, 0, 0, 0.75);
-  display: flex;
+  justify-content: right;
 }
 
 .Xbutton {
   display: flex;
   justify-content: right;
+  text-align: right;
 }
 
 .modal-body {
@@ -73,4 +77,23 @@ button {
   -webkit-box-shadow: 10px 10px 46px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 46px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 46px -1px rgba(0, 0, 0, 0.75);
+}
+
+@media only screen and (max-width: 600px) {
+  .modal-content {
+    width: 300px;
+  }
+  .album-year {
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .album-title{
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .modal-body {
+    padding: 5px;
+  }
 }
