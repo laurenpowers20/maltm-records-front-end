@@ -4,10 +4,12 @@ font-family: 'Londrina Outline', cursive;
 font-family: 'Londrina Shadow', cursive;
 font-family: 'Londrina Solid', cursive; */
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Londrina+Outline&family=Londrina+Shadow&family=Londrina+Solid:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&family=Rubik+Moonrocks&display=swap");
 
 .navlink {
   margin: 10px;
   margin-top: 0;
+  font-family: "Rubik", sans-serif;
 }
 
 a {
@@ -22,16 +24,17 @@ a:hover {
 
 .b-side-music {
   color: black;
-  font-family: "Bungee Shade", cursive;
+  font-family: "Rubik Moonrocks", cursive;
+  font-size: 80px;
 }
 
 .nav-bar-component {
   width: 100%;
-  background: rgb(34, 193, 195);
+  background: rgb(226, 169, 74);
   background: linear-gradient(
     0deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(45, 136, 253, 1) 100%
+    rgba(226, 169, 74, 1) 0%,
+    rgba(190, 80, 124, 1) 100%
   );
   border-bottom: 3px solid white;
 }
@@ -47,6 +50,7 @@ h1 {
 .title-logo {
   display: flex;
   align-items: center;
+  height: 140px;
 }
 
 .nav {
@@ -82,14 +86,19 @@ h1 {
     font-size: 20px;
     justify-content: left;
   }
-
+  .b-side-music {
+    color: black;
+    font-family: "Rubik Moonrocks", cursive;
+    font-size: 50px;
+    padding-left: 0;
+  }
   .navlink {
     margin: 5px;
     margin-top: 0;
   }
 
   .cassette-logo {
-    height: 50px;
+    height: 100px;
     padding: 10px;
   }
 }
