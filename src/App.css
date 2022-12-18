@@ -238,21 +238,18 @@ img:hover {
   .genre {
     display: flex;
     flex-wrap: wrap;
+    padding: 2px;
+    margin: 2px;
+    justify-content: center;
   }
-  .gallery-pic {
-    height: 100px;
+  .gallery {
+    justify-content: center;
   }
 
   .genre-gallery {
-    height: 100px;
-  }
-
-  .genre {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .gallery-pic {
-    height: 100px;
+    height: 70px;
+    width: 70px;
+    font-size: 1em;
   }
 
   input {
@@ -261,6 +258,10 @@ img:hover {
     margin: 10px;
     border-radius: 25px;
     border: 2px solid white;
-    padding: 20px;
+    padding: 15px;
+  }
+
+  .alpha {
+    font-size: 15px;
   }
 }
