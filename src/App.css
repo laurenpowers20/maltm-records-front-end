@@ -246,9 +246,13 @@ img:hover {
     justify-content: center;
   }
 
+  .gallery-pic {
+    height: 100px;
+  }
+
   .genre-gallery {
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
     font-size: 1em;
   }
 
