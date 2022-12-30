@@ -9,6 +9,12 @@ body {
   display: flex;
   justify-content: center;
 }
+.about {
+  font-size: 30px;
+  width: 800px;
+  text-align: left;
+  margin: auto;
+}
 
 input {
   width: 300px;
@@ -229,6 +235,12 @@ img:hover {
 }
 
 @media only screen and (max-width: 600px) {
+  .about {
+    font-size: 20px;
+    width: 400px;
+    text-align: left;
+    margin: auto;
+  }
   .bio-content {
     padding: 1px;
   }
